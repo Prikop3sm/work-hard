@@ -1,3 +1,1 @@
-$(function(){
-
-});
+console.log(2019);
