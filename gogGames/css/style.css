@@ -32,10 +32,27 @@ body {
   color: #826f8c;
 }
 
+.consoles {
+  background-image: url(../images/hero-bg.jpg);
+}
+
 .container {
   max-width: 1188px;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.btn {
+  width: 180px;
+  border-radius: 25px;
+  padding: 13px 14px 14px 19px;
+  border-width: 0px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: linear-gradient(137deg, #4499d9 0%, #7367be 100%);
+  color: #fff;
+  line-height: 1.33;
+  font-size: 18px;
 }
 
 .header {
@@ -45,9 +62,115 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 10px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
 }
 .header__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 13px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__item_1 {
+  margin-right: 52px;
+}
+.header__item_2 {
+  margin-right: 44px;
+}
+.header__item_3 {
+  margin-right: 42px;
+}
+.header__item_4 {
+  margin-right: 55px;
+}
+
+.gaming_grid {
+  display: grid;
+  grid-template-columns: 518px 736px;
+  padding-bottom: 70px;
+}
+
+.gaming {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 518px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.gaming__title {
+  color: rgb(68, 99, 129);
+  font-size: 23px;
+  margin-top: 139px;
+}
+.gaming__subtitle {
+  font-size: 58px;
+  color: rgb(235, 131, 130);
+  margin-top: 26px;
+  line-height: 75px;
+}
+.gaming__text {
+  margin: 31px 0 36px 0;
+}
+
+.hero {
+  margin-top: 54px;
+  width: 736px;
+  height: 617px;
+}
+
+.cross {
+  margin-left: 200px;
+  max-width: 120px;
+}
+
+.about {
+  background-image: url(../images/about-bg.jpg);
+}
+.about__grid {
+  display: grid;
+  grid-template-columns: 557px 586px;
+  gap: 35px;
+}
+
+.grid_right {
+  margin-top: 165px;
+}
+.grid__left {
+  margin-top: 89px;
+  position: relative;
+  padding-bottom: 92px;
+}
+
+.tv {
+  position: absolute;
+  right: 35px;
+  top: -10px;
+}
+
+.right_title {
+  font-size: 23px;
+  margin-bottom: 30px;
+  color: rgb(68, 99, 129);
+}
+.right_subtitle {
+  font-size: 68px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  color: rgb(235, 131, 130);
+}
+.right_text {
+  margin-bottom: 29px;
 }
